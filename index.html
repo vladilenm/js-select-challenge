@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Select</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons' rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="wrap">
+
+  <div class="settings">
+    <h2>Действия</h2>
+    <ul id="actions">
+      <li>
+        <button data-type="open">Открыть</button>
+      </li>
+      <li>
+        <button data-type="close">Закрыть</button>
+      </li>
+      <li>
+        <button data-type="set">Выбрать 5 индекс</button>
+      </li>
+      <li>
+        <button data-type="get">Получить выбранный</button>
+      </li>
+      <li>
+        <button data-type="clear">Очистить</button>
+      </li>
+      <li>
+        <button data-type="destroy">Уничтожить</button>
+      </li>
+    </ul>
+
+    <p id="log"></p>
+  </div>
+
+  <div id="select"></div>
+
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
